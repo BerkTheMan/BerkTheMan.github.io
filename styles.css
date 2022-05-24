@@ -1,42 +1,48 @@
 
 body { 
-    background-image: linear-gradient(to right, rgb(65, 82, 232) , rgb(105, 5, 193));
+    background-image: linear-gradient(to right, rgb(36, 53, 208) , rgb(105, 5, 193));
     color: white; 
     text-align: center;
     margin-top: 300px; 
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
-    height: 2500px;
+    height: 3000px;
 } 
 
 .firstd { 
-  margin-top: 100px;
+  margin-top: -2500px;
+  margin-bottom: 200px; 
 }
 
 .contact {
-  margin-top: 20px;  
+  margin-top: 150px; 
 }
 
 ul {
   font-size: 25px;
-  margin-left: 620px;
-  margin-top: -470px;
+  margin-left: 40px;
+  margin-top: 90px;
   font-family: 'Roboto', sans-serif; 
+  list-style:none;
 }
 
 .contact-me {
   font-size: 80px;
+  margin-bottom: -20px;
 } 
 
 .contact-hr {
   margin-top: 100px;
 }
 
+.contact h1 {
+  margin-top: -100px;
+}
+
 img { 
     width: 300px;
-    margin-top: -300px;
-    margin-right: 5000px;
-    margin-left: -50px;
+    margin-top: -265px; 
+    margin-left: -1200px;
 }
 
 .mon-desc { 
@@ -46,14 +52,16 @@ img {
 }
 
 .school-pic {
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 100px;
   width: 450px;
+  border: 5px solid rgb(5, 4, 4);
+
 }
 
 .school-desc {
   font-size: 30px;
-  margin-right: 700px;
+  margin-right: 10px;
 }
 
 .img-desc {
@@ -63,15 +71,17 @@ img {
 
 .mask_pic { 
   margin-top: 40px;
-  margin-left: 100px;
+  margin-left: -900px;
   width: 400px; 
+  border: 5px solid rgb(5, 4, 4);
 }
 
 .monster-pic {
-  margin-left: 700px;
+  margin-left: 520px;
   width: 600px;
   margin-bottom: 1000px;
   margin-top: -400px;
+  border: 5px solid rgb(5, 4, 4);
 }
 
  .projects { 
@@ -79,7 +89,7 @@ img {
  }
 
   .theb { 
-    margin-top: -2200px;
+    margin-top: -2600px;
   }
 
   .desc { 
@@ -116,7 +126,7 @@ img {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s;
-    margin-bottom: 2500px;
+    margin-bottom: 3000px;
   }
   
   .demo a:hover {
@@ -201,3 +211,103 @@ img {
       opacity: 0;
     }
   }
+
+  .demo-two a {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+    margin-bottom: 2900px;
+  }
+  
+  .demo-two a:hover {
+    opacity: .5;
+  }
+  
+  #section a {
+    padding-top: 0px;
+  }
+  
+  #section a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  
+  #section a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+  
+  #section a span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    border-radius: 100%;
+    opacity: 0;
+    -webkit-animation: sdb03 3s infinite;
+    animation: sdb03 3s infinite;
+    box-sizing: border-box;
+  }
+  
+  @-webkit-keyframes sdb03 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes sdb03 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.416);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+

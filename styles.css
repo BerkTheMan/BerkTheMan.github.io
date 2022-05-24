@@ -11,7 +11,7 @@ body {
 
 .firstd { 
   margin-top: -2500px;
-  margin-bottom: 200px; 
+  margin-bottom: 100px; 
 }
 
 .contact {
@@ -61,7 +61,7 @@ img {
 
 .school-desc {
   font-size: 30px;
-  margin-right: 10px;
+  margin-right: -20px;
 }
 
 .img-desc {

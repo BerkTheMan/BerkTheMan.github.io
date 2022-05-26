@@ -24,7 +24,7 @@ ul {
   margin-top: 90px;
   font-family: 'Roboto', sans-serif; 
   list-style:none;
-  margin-bottom: 250px;
+  margin-bottom: 80px;
 }
 
 .contact-me {
@@ -33,10 +33,6 @@ ul {
 
 .contact-hr {
   margin-top: 100px;
-}
-
-.art-pro {
-  margin-top: -2800px;
 }
 
 .contact h1 {
